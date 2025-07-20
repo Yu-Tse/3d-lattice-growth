@@ -1,4 +1,3 @@
-# src/__init__.py
 """
 CUDA‑FCC Growth Simulator
 =========================
