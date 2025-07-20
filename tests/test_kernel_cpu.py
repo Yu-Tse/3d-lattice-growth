@@ -1,4 +1,6 @@
-# tests/test_kernel_cpu.py
+import sys, pathlib
+ROOT = pathlib.Path(__file__).resolve().parents[1]  # 回到專案根
+sys.path.insert(0, str(ROOT))
 import numpy as np
 import pytest
 
