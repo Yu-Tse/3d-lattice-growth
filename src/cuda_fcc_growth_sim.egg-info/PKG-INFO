@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cuda-fcc-growth-sim
+Version: 0.1.0
+Summary: GPU‑accelerated 3‑D FCC lattice growth & defect simulation
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: numba

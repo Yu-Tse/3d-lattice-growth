@@ -1,3 +1,7 @@
+#
+import sys, pathlib
+ROOT = pathlib.Path(__file__).resolve().parents[1]  # 回到專案根
+sys.path.insert(0, str(ROOT))
 from src.simulation import run_sim
 
 if __name__ == "__main__":
