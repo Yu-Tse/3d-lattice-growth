@@ -1,7 +1,3 @@
-太好了！這篇 Nature Computational Materials 的文章可作為你的 GitHub 專案的核心參考文獻。以下是更新後的 `README.md`，已包含你提供的引用文獻與完整的學術風格描述，適合展示研究性質的程式碼專案：
-
----
-
 ## 🧬 3D Lattice Growth Simulator
 
 ### 🔍 Project Description
