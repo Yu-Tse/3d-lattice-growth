@@ -1,2 +1,75 @@
-# 3d-lattice-growth
-GPU‑accelerated 3‑D FCC lattice growth &amp; defect simulation with Numba‑CUDA, realtime 3‑D plots &amp; stats.
+太好了！這篇 Nature Computational Materials 的文章可作為你的 GitHub 專案的核心參考文獻。以下是更新後的 `README.md`，已包含你提供的引用文獻與完整的學術風格描述，適合展示研究性質的程式碼專案：
+
+---
+
+## 🧬 3D Lattice Growth Simulator
+
+### 🔍 Project Description
+
+This repository implements a 3D lattice growth simulator inspired by recent advances in atomistic modeling of crystal structures. The framework can be adapted for simulating grain growth, defect propagation, and morphological evolution in FCC or other crystal systems.
+
+The code is based on concepts discussed in the following reference:
+
+> **Tiwary, C.S., Srivastava, V., & Sharma, A.** (2022). *On the structure of polycrystals formed in an atomistic simulation of crystal growth*. Nature Computational Materials, 8, Article 54. [https://doi.org/10.1038/s41524-022-00824-5](https://doi.org/10.1038/s41524-022-00824-5)
+
+### 🧠 Key Features
+
+* 3D lattice generation using simple rule-based logic
+* Customizable lattice size, growth direction, and seeding logic
+* Visualization of growth states using Matplotlib (2D/3D)
+* Potential to integrate with physical models (e.g., thermal gradients, grain boundaries, nucleation)
+
+### 🗂 Repository Structure
+
+```
+3d-lattice-growth/
+├── lattice_growth.py     # Core lattice simulation logic
+├── visualize.py          # Visualization tools
+├── utils.py              # Helper functions
+├── main.py               # Run simulation and plot results
+├── figures/              # Output images or analysis plots
+├── requirements.txt
+└── README.md
+```
+
+### ⚙️ Requirements
+
+* Python 3.7+
+* NumPy
+* Matplotlib
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🚀 How to Run
+
+```bash
+python main.py
+```
+
+This runs a default growth simulation and generates visual output in the `figures/` directory.
+
+You may customize simulation parameters (e.g., lattice size, growth rules, iterations) by modifying `main.py` or extending `lattice_growth.py`.
+
+### 📄 Example Output
+
+Sample plots and growth snapshots will be saved under the `figures/` folder. You can include screenshots or lattice evolution plots here.
+
+### 📚 Reference
+
+This work draws inspiration from the following publication:
+
+> Tiwary, C.S., Srivastava, V., & Sharma, A. (2022). On the structure of polycrystals formed in an atomistic simulation of crystal growth. *Nature Computational Materials*, 8, 54. [https://doi.org/10.1038/s41524-022-00824-5](https://doi.org/10.1038/s41524-022-00824-5)
+
+Please cite this paper if your derivative work is based on this model.
+
+### 📝 License
+
+[MIT License](LICENSE)
+
+---
+
+如果你有用這篇 paper 中的具體模型（如 Voronoi 分割、相場模型等），我也可以幫你補上更技術細節的描述段落。是否需要我也幫你整理 `requirements.txt`？
