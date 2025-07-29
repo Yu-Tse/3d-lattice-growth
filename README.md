@@ -70,3 +70,5 @@ Please cite this paper if your derivative work is based on this model.
 
 **Yu-Tse Wu** (吳雨澤)  
 *Master’s Student at the Institute of Innovation and Semiconductor Manufacturing, National Sun Yat-sen University*
+
+GitHub: [@Yu-Tse](https://github.com/Yu-Tse)
