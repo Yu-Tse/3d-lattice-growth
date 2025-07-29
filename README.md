@@ -66,6 +66,7 @@ Please cite this paper if your derivative work is based on this model.
 
 [MIT License](LICENSE)
 
----
+## 🙋‍♂️ Author
 
-如果你有用這篇 paper 中的具體模型（如 Voronoi 分割、相場模型等），我也可以幫你補上更技術細節的描述段落。是否需要我也幫你整理 `requirements.txt`？
+**Yu-Tse Wu** (吳雨澤)  
+*Master’s Student at the Institute of Innovation and Semiconductor Manufacturing, National Sun Yat-sen University*
